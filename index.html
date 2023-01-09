@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>/ Resume Generator / </title>
+</head>
+
+<body>
+
+  <header class="head">
+    <h1>Genrate Resume</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iure ex praesentium aliquam amet magnam
+      magni eum fuga odit, sit porro dignissimos aliquid autem sunt. Cupiditate ullam amet assumenda tempora!</p>
+  </header>
+  <div class="rows" id="info-bod">
+    <div class="row-item field" id="field-1">
+      <h2>Personal Information</h2>
+
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="fname"> First Name</label>
+            <input type="text" class="form-control" id="fname" placeholder="First Name" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="lname"> Last Name</label>
+            <input type="text" class="form-control" id="lname" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="mail" placeholder=" Enter Your Email">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="num">Contact no. </label>
+            <input type="tel" class="form-control" id="num" placeholder="Enter Your Contact">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <input type="text" class="form-control" id="address" placeholder="1234 Main St">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>punjab</option>
+              <option>U.P</option>
+              <option>Rajasthan</option>
+              
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <form>
+          <div class="form-group">
+            <label for="inpimg">Image</label>
+            <input type="file" class="form-control-file" id="inpimg" accept="image/*">
+          </div>
+        </form>
+        
+      </form>
+    </div>
+    <div class="row-item field" id="field-2">
+      <h2>Professional & Educational  Information</h2>
+      <form action="">
+        <div class="form-group">
+          <label for="edu">Educational Background : </label>
+          <textarea  class="form-control" id="edu">10th,12th,Graduation</textarea>
+        </div>
+        <div class="form-group">
+          <label for="skill">Skills</label>
+          <textarea  class="form-control" id="skill"> Write about your skills briefly.</textarea>
+        </div>
+        <div class="form-group">
+          <label for="project">Projects: </label>
+          <textarea  class="form-control" id="project"> Projects demonstrate your skills</textarea>
+        </div>
+        <div class="form-group">
+          <label for="exp">Work  & Experience : </label>
+          <textarea  class="form-control" id="exp"> Write about your previous work briefly.</textarea>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="bts">
+ <div class="genrate" id="generate">Generate C V</div>
+</div>
+
+
+
+
+
+
+<div id="res-bod">
+  <div class="conatiner">
+    <div class="rows" id="res-row">
+     <div class="left-col col dark" id="dark">
+      <img src="pngegg.png" alt="loading" id="out-img">
+      <div class="res res-edu" id="res-edu">
+       <h3>Education :</h3>
+       lorem lorem loem </div>
+      <div class="res res-phone" id="res-num">
+       <h3>Contact:</h3> 
+       lorem lore lorem</div>
+      <div class="res res-email" id="res-mail">
+       <h3>Email:</h3>
+       lorem lore lorem</div>
+      <div class="res res-address" id="res-address">
+       <h3>Address:</h3>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque numquam ad, error expedita esse accusamus nostrum at iusto odio exercitationem! Unde quisquam molestias minima nobis pariatur amet quaerat corrupti illo!</div>
+     </div>
+     <div class="right-col col light" id="light">
+       <div class=" res res-name" id="res-name">
+        Karan Kumar
+       </div>
+       <div class="res res-skills" id="res-skill">
+        <h3>Skills : </h3>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam magni quo dolorum minima impedit consectetur aut eligendi, accusamus mollitia quasi ratione? Sint nemo facilis mollitia saepe error deleniti soluta nihil.</div>
+       <div class="res res-project" id="res-project">
+        <h3>Projects : </h3>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam magni quo dolorum minima impedit consectetur aut eligendi, accusamus mollitia quasi ratione? Sint nemo facilis mollitia saepe error deleniti soluta nihil.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor mollitia inventore iste iure harum quasi? Nam deserunt corrupti culpa, hic, iure itaque obcaecati doloribus quas, dolores repellat nesciunt. Deserunt, explicabo.
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consequuntur voluptatem maiores architecto cum consequatur dicta, vel, maxime vitae nisi pariatur ut inventore repellat voluptatibus placeat accusamus at explicabo accusantium?
+       </div>
+       <div class="res res-work" id="res-work"></div>
+     </div>
+    </div>
+   </div> 
+</div>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

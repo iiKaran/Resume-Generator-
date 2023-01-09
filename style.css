@@ -1,0 +1,146 @@
+*{
+ margin: 0px;
+ padding:0px;
+ box-sizing: border-box;
+}
+:root{
+ --beige  :#DDD0C8; 
+ --light-blue :#E9F1FA; 
+}
+body{
+ background-color: var(--beige);
+}
+.head{
+ padding: 3px 4px;
+ margin-top: 14px;
+}
+.head h1{
+ text-align: center;
+ padding: 12px;
+} 
+.head p{
+ margin-top: 16px;
+ width: 50vw;
+ margin: auto;
+ text-align: left;
+ padding: 12px;
+ /* font-size: 1.2em; */
+ line-height: 24px;
+ break-inside: auto;
+}
+.rows{
+ display: flex;
+ /* gap: 8px; */
+ justify-content: space-between;
+ /* align-items: center; */
+ padding: 6px;
+ /* padding-left: 44px; */
+}
+.field{
+ flex-basis: 48%;
+ padding: 15px;
+ border-radius: 6px;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px 0px;
+}
+.field h2{
+ padding: 16px;
+ text-align: center;
+}
+.item{
+ /* display: flex; */
+ /* justify-content: space-evenly; */
+ /* flex-wrap: wrap; */
+ padding: 16px;
+}
+label{
+ cursor: pointer;
+}
+#skill{
+ text-transform: capitalize;
+}
+#exp{
+ text-transform: capitalize;
+}
+.bts{
+ text-align: center;
+ margin: 13px ;
+}
+.genrate{
+ display: inline-block; 
+ margin: auto;
+ padding: 12px 15% ;
+ /* font-weight: 800; */
+ background-color: black;
+ color: var(--beige);
+ cursor: pointer;
+ font-size: 19px ;
+ border-radius: 4px; 
+ transition: all .5s;
+}
+.genrate:hover{
+ opacity: .6;
+}
+#res-bod{
+
+ padding: 0px;
+ background-color: white;
+}
+#res-row{
+ /* justify-content: ; */
+ gap: 0px;
+ /* margin: auto; */
+ /* align-items: flex-start; */
+}
+.col{
+ overflow: hidden;
+ padding-bottom: 165px;
+}
+.dark{
+ flex-basis: 30%;
+ text-align: center;
+ /* padding: 19px; */
+ background-color: black;
+ color: white;
+ /* border-right: 3px solid orange; */
+}
+.dark img{
+ width: 60%;
+ margin: auto;
+/* border: 3px solid red; */
+border-radius: 50%;
+}
+
+.light{
+ flex-basis: 60%;
+}
+.res{
+ text-align: left;
+ /* padding: 12px ; */
+ /* border: 2px solid red; */
+ margin: 19px;
+}
+
+.res h3 {
+ font-size: 28px;
+ margin-bottom: 14px;
+ border-bottom: 4px solid orange;
+ border-radius: 5px;
+ padding-bottom: 14px;
+}
+.res-name{
+ height: 20%;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ font-size: 4rem;
+ font-weight: 400;
+ letter-spacing: 7px;
+ background-color: orange;
+
+}
+.light .res h3{
+ border-color: black;
+}
+#res-bod{
+ display: none;
+}
